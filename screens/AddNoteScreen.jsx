@@ -23,6 +23,7 @@ const AddNoteScreen = ({ navigation }) => {
       navigation.navigate("Home");
     } catch (e) {
       alert(e);
+      console.log(e);
     }
   };
 
